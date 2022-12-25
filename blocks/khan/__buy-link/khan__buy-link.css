@@ -6,6 +6,12 @@
   color: #2f80ed;
 }
 
+/* плавное выгорание при наведении */
+.khan__buy-link:hover {
+  opacity: .4;
+  transition: opacity .9s;
+}
+
 /* стрелка для ссылки */
 .khan__buy-link::after {
   content: ' \2192';

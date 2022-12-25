@@ -10,6 +10,13 @@
   padding: 0 48px 0 0;
 }
 
+/* плавное выгорание при наведении */
+.feynman__link:hover {
+  opacity: .4;
+  transition: opacity .9s;
+}
+
+/* стрелка для ссылки */
 .feynman__link::after {
   content: ' \2192';
 }

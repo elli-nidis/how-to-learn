@@ -5,3 +5,9 @@
   font-size: 18px;
   font-weight: 400;
 }
+
+/* плавное выгорание при наведении */
+.footer__column-link:hover {
+  opacity: .4;
+  transition: opacity .9s;
+}
